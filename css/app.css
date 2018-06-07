@@ -40,10 +40,15 @@ body {
     text-align: center;
 }
 
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
+
 h2 {
     margin: 0;
     transform: rotate(-45deg);
-    text-shadow: 0 0 5px #64FE2E;
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
 }
 
 #florida {
@@ -53,3 +58,6 @@ h2 {
 #paris {
     background-color: #d32f2f;
 }
+
+
+
